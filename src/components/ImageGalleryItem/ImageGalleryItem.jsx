@@ -1,7 +1,7 @@
 import { GalleryItem, GalleryImage } from './ImageGalleryItem.styled';
 import { Modal } from 'components/index';
 import PropTypes from 'prop-types';
-import { useState, memo } from 'react';
+import { useState } from 'react';
 
 
 const ImageGalleryItem = ({ largeImageURL, webformatURL, tags }) => {
